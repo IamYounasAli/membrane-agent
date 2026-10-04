@@ -190,7 +190,7 @@ def render_global(out: dict, key: str, dark: bool):
 def page_ask(dark: bool):
     lib, store = load_library()
     providers = llm.configured_providers()
-    show(C.hero("Paper Research Agent", "Ask questions about your own papers - or search the wider literature. "
+    show(C.hero("MemXtract", "Ask questions about your own papers - or search the wider literature. "
                 "Answers come with evidence, colored tables and charts.",
                 ["📚 " + (f"{lib.stats['papers']} papers" if lib.ok else "library not loaded"), f"🧪 {record_store.count()} records",
                  "🤖 " + (", ".join(providers) if providers else "no LLM key")]))
