@@ -17,7 +17,7 @@ from ui import charts as G
 from ui import components as C
 from ui import theme
 
-st.set_page_config(page_title="Paper Research Agent", page_icon="🧪", layout="wide")
+st.set_page_config(page_title="MemXtract", page_icon="🧪", layout="wide")
 record_store.init_db()
 
 MODE_LIB = "📚 Search my library"
