@@ -289,8 +289,8 @@ def page_ask(dark: bool):
 
 # ----------------------------------------------------------------------------- page: extract
 def page_extract(dark: bool):
-    show(C.hero("Extract structured records", "Turn the numbers inside your papers into a searchable, verified table.",
-                ["once per paper", "units converted by code", "every number checked"]))
+    show(C.hero("Simple and Transparent Membrane Literature Comparsion & Reasearch",
+                ["Isnstantly compare membrane performence accross research papers with 100% verified source Citations"]))
     lib, store = load_library()
     if not lib.ok:
         library_problems(lib)
