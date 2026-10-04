@@ -65,7 +65,7 @@ def sidebar():
             st.session_state["dark"] = False
     lib, _ = load_library()
     with st.sidebar:
-        show('<div class="rg-brand"><span class="logo">🧪</span>Paper Research Agent</div>')
+        show('<div class="rg-brand"><span class="logo">🧪</span>MemXtract</div>')
         dark = st.toggle("🌙 Dark mode", key="dark")
         page = st.radio("Navigate", PAGES, label_visibility="collapsed", key="page")
         st.divider()
